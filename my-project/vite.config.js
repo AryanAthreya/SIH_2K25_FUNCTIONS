@@ -5,9 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
+  base: '/SIH_2K25_FUNCTIONS/'
 })
-// vite.config.js
-export default {
-  base: '/SIH_2K25_FUNCTIONS/', // Use your repo name here
-}
+
 
